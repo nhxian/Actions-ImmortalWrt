@@ -1,4 +1,2 @@
-src-git passwall_packages https://github.com/xiaorouji/openwrt-passwall-packages.git;main
-src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git;main
+# 只保留 SSR+ 的源码源，去掉 PassWall2 和 OpenClash 的源，避免三方打架
 src-git helloworld https://github.com/fw876/helloworld.git
-src-git openclash https://github.com/vernesong/OpenClash.git
